@@ -1,0 +1,1 @@
+cmd_/home/nimajam41/Desktop/codes/kernelmodule.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/nimajam41/Desktop/codes/kernelmodule.ko /home/nimajam41/Desktop/codes/kernelmodule.o /home/nimajam41/Desktop/codes/kernelmodule.mod.o ;  true
